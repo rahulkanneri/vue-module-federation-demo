@@ -1,0 +1,17 @@
+{
+    "name": "user-app",
+    "version": "1.0.0",
+    "main": "index.js",
+    "private": "true",
+    "scripts": {
+        "start": "concurrently \"wsrun --parallel start\""
+    },
+    "workspaces": [
+        "apps/*",
+        "lib/*"
+    ],
+    "devDependencies": {
+        "concurrently": "^8.2.1",
+        "wsrun": "^5.2.4"
+    }
+}
