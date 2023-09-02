@@ -4,7 +4,6 @@ This is a demo application created in vue3 using module federation and pnpm work
 
 # Get Started
 
-`cd vue-module-federation-demo
-pnpm install
-pnpm run start
-`
+1. `cd vue-module-federation-demo`
+2. `pnpm install`
+3. `pnpm run start`
